@@ -44,7 +44,7 @@ public class CreditCard {
         checkSpend(1, true);
         checkSpend(19_999, true);
         checkSpend(20_000, true);
-        checkSpend(20_001, true);
+        checkSpend(20_001, false);
 
 
 //        hdfcCard.spend(80000);
