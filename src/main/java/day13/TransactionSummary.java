@@ -48,7 +48,7 @@ public class TransactionSummary {
         transactions.add(25000.0);
         transactions.add(10000.0);
 
-        System.out.println(totalCredits(transactions));    // Expected: 45000.0
+        System.out.println(totalCredits(transactions));    // Expected: 55000.0
         System.out.println(highValueCount(transactions)); // Expected: 2
         System.out.println(totalDebits(transactions));  // Expected: -2500
     }
